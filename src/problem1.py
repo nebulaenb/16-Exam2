@@ -36,7 +36,7 @@ def run_test_problem1():
     print('Testing the   problem1   function:')
     print('--------------------------------------------------')
 
-    rectangles1 = [Rect(20, 30), Rect(45,67), Rect(78,21)]
+    rectangles1 = [Rect(20, 30), Rect(45, 67), Rect(78, 21)]
     print('Expected: ', 5253)
     print('Actual: ', problem1(rectangles1))
 
